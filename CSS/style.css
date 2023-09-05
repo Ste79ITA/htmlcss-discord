@@ -288,6 +288,11 @@ justify-content: center;
 .footer__section ul li:first-child {
     color: rgb(115, 137, 218);}
 
+.icons {
+    padding-top: 20px;
+
+}
+
 /* REGISTER SECTION */
 
 .register {
