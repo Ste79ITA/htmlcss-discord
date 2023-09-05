@@ -242,7 +242,66 @@ justify-content: center;
     color: white;
 }
 
+/* FOOTER */
+
+.footer__section {
+    background-color: rgb(35, 39, 42);
+}
+
+.footer__section .container {
+    border-bottom: 1px solid rgb(65, 76, 109);
+}
+
+.footer__section h2 {
+    color: rgb(115, 137, 218);
+    margin: 50px 0px 20px 0px;
+}
+
+.footer__section img {
+    width: 7%;
+    padding-right: 5px;
+}
+
+.lang-selector {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+}
+
+.footer__section ul {
+    list-style: none;
+    color: white;
+    line-height: 2em;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.footer__section ul li:first-child {
+    color: rgb(115, 137, 218);}
+
+/* REGISTER SECTION */
+
+.register {
+    background-color: rgb(143, 161, 225);    
+    color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.register__section {
+    background-color: rgb(35, 39, 42);
+    padding-top: 30px;
+}
+
+.register a {
+    text-decoration: none;
+    color: white;
+}
+
 /* COLUMNS */
+
 .col-2 {
     flex-basis: calc((100% / 12) * 2);
 }
@@ -269,83 +328,6 @@ justify-content: center;
 
 .col-12 {
     flex-basis: calc((100% / 12) * 12);
-}
-
-/* DEBUG */
-
-.debug [class^="col"] {
-    border: 1px dashed black;}
-
-.debug header {
-    /* padding: 10px; */
-    /* background-color: rgb(173, 216, 230); */
-}
-
-.debug footer {
-    padding: 5px;
-    background-color: rgb(35, 39, 42);
-}
-
-.debug section {
-    /* padding: 15px 0px; */
-}
-
-/* DEBUG BACKGROUND COLORS */
-
-.debug .l-blue {
-    background-color: rgb(29, 144, 255);
-        min-height: 250px;
-}
-
-.debug .blue {
-    background-color: rgb(2, 0, 139);
-}
-
-.debug .white {
-    background-color: white;
-}
-
-.debug .l-pink {
-    background-color: rgb(255, 192, 203);
-}
-
-.debug .pink {
-    background-color: rgb(238, 130, 238);
-        min-height: 250px;
-}
-
-.debug .d-pink {
-    background-color: rgb(240, 127, 128);
-        min-height: 300px;
-}
-.debug .f-pink {
-    background-color: rgb(240, 127, 128);
-}
-
-.debug .green {
-    background-color: rgb(34, 139, 34);
-        min-height: 500px;
-}
-
-.debug .a-green {
-    background-color: rgb(32, 178, 170);
-}
-
-.debug .mint {
-    background-color: rgb(127, 255, 212);
-    padding: 10px 0px;
-}
-
-.debug .orange {
-    background-color: rgb(218, 165, 32);
-}
-
-.debug .l-grey {
-    background-color: rgb(211, 211, 211);
-}
-
-.debug .d-grey {
-    background-color: rgb(35, 39, 42);
 }
 
 
