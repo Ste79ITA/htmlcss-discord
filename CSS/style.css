@@ -135,6 +135,7 @@ justify-content: center;
 
 /* FIRST SECTION */
 
+
 .first__section h2 {
     font-weight: 600;
     font-size: 45px;
@@ -154,10 +155,6 @@ justify-content: center;
 }
 
 /* SECOND SECTION */
-
-.wave-img-second {
-color: grey;
-}
 
 .second__section {
     background-color: rgb(246, 246, 246);
@@ -182,6 +179,10 @@ color: grey;
 }
 
 /* THIRD SECTION */
+
+.wave {
+    transform: scaleY(-1); 
+}
 
 .third__section h2 {
     font-weight: 600;
