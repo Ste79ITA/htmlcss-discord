@@ -144,7 +144,7 @@ justify-content: center;
 .first__section p {
     font-weight: 500;
     font-size: 19px;
-    padding: 19px 0px 0px 100px;
+    padding: 19px 0px 120px 100px;
     line-height: 1.5em;
 }
 
@@ -154,6 +154,10 @@ justify-content: center;
 }
 
 /* SECOND SECTION */
+
+.second__section {
+    background-color: rgb(246, 246, 246);
+}
 
 .second__section h2 {
     font-weight: 600;
@@ -169,7 +173,27 @@ justify-content: center;
 }
 
 .second__section img{
-    padding-top: 100px;
+    padding: 100px 0px 120px 0px;
+    width: 100%;
+}
+
+/* THIRD SECTION */
+
+.third__section h2 {
+    font-weight: 600;
+    font-size: 45px;
+    padding: 120px 0px 0px 100px;
+}
+
+.third__section p {
+    font-weight: 500;
+    font-size: 19px;
+    padding: 19px 0px 0px 100px;
+    line-height: 1.5em;
+}
+
+.third__section img{
+    padding: 100px 0px 120px 0px;
     width: 100%;
 }
 
