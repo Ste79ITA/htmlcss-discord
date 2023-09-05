@@ -6,6 +6,10 @@
     box-sizing: border-box;
 } 
 
+html {
+    font-family: sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -41,6 +45,59 @@ body {
 .row-reverse {
     flex-direction: row-reverse;
 }
+
+.col__padding {
+    padding: 90px 0px;
+}
+
+/* HERO */
+
+.hero {
+    background-image: url(../img/jumbo.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.hero h1 {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.hero p {
+    color: white;
+    line-height: 1.5em;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.hero__links {
+display: flex;
+justify-content: center;
+}
+
+.hero a {
+    padding: 15px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.hero a:first-of-type {
+    background-color: white;
+        color: black;
+}
+
+.hero a:last-of-type {
+    background-color: black;
+    margin-left: 20px;
+    color: white;
+}
+
 
 /* COLUMNS */
 .col-2 {
