@@ -153,6 +153,26 @@ justify-content: center;
     width: 100%;
 }
 
+/* SECOND SECTION */
+
+.second__section h2 {
+    font-weight: 600;
+    font-size: 45px;
+    padding: 120px 100px 0px 0px;
+}
+
+.second__section p {
+    font-weight: 500;
+    font-size: 19px;
+    padding: 19px 100px 0px 0px;
+    line-height: 1.5em;
+}
+
+.second__section img{
+    padding-top: 100px;
+    width: 100%;
+}
+
 /* COLUMNS */
 .col-2 {
     flex-basis: calc((100% / 12) * 2);
