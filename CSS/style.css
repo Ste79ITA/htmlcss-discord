@@ -155,6 +155,10 @@ justify-content: center;
 
 /* SECOND SECTION */
 
+.wave-img-second {
+color: grey;
+}
+
 .second__section {
     background-color: rgb(246, 246, 246);
 }
@@ -210,6 +214,9 @@ justify-content: center;
 }
 
 .forth__section h3 {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
     display: flex;
     justify-content: center;
     font-weight: 600;
