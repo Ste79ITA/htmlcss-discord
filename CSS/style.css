@@ -67,18 +67,18 @@ header {
 header ul {
   display: flex;
   list-style: none;
+  gap: 40px;
 }
 
 header ul li a {
   color: white;
   text-decoration: none;
-  padding: 0px 10px;
 }
 
 header div > a:last-of-type {
   background-color: white;
   color: black;
-  padding: 15px 25px;
+  padding: 10px 25px;
   border-radius: 30px;
   text-decoration: none;
 }
@@ -92,38 +92,38 @@ header div > a:last-of-type {
   background-image: url(../img/jumbo.png);
   background-size: cover;
   background-repeat: no-repeat;
+  text-align: center;
+  color: white;
 }
 
 .hero h1 {
-  display: flex;
-  justify-content: center;
-  padding-top: 15px;
-  padding-bottom: 50px;
-  color: white;
+  padding: 15px 0 50px 0;
   font-weight: 600;
   font-size: 50px;
 }
 
 .hero p {
-  color: white;
   line-height: 1.5em;
   font-weight: 500;
   font-size: 20px;
-  text-align: center;
   padding-bottom: 30px;
 }
 
 .hero__links {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
   padding-bottom: 70px;
   font-size: 20px;
 }
 
 .hero a {
-  padding: 15px 25px;
+  padding: 0 25px;
+  line-height: 50px;
   border-radius: 30px;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .hero a:first-of-type {
@@ -133,7 +133,6 @@ header div > a:last-of-type {
 
 .hero a:last-of-type {
   background-color: rgb(35, 39, 42);
-  margin-left: 40px;
   color: white;
 }
 
